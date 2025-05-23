@@ -1,0 +1,10 @@
+type Department{
+    id:ID
+    name:String
+    code:String
+    description:String
+}
+
+type Query{
+    getAllDepartments:[Department]
+}
